@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  padding: 20px 36px;
+  justify-content: center;
+  background-color: #312C27;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 3em;
+  color: #312C27;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  margin: 4px 10px
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.nav--logo {
+  max-width: 200px;
+}
+
+section {
+  padding: 20px;
+}
+
+.cards-list {
+  display: flex;
+  margin: 0 24px;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.card {
+  width: 275px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 9px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px 9px 0 0;
+  margin-bottom: 9px;
+  max-height: 170px;
+}
+
+.location--icon {
+  height: 15px;
+  padding: 0px 0px 0px 10px;
+  margin-right: 0px;
+}
+
+.location--info {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
